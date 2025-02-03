@@ -3,7 +3,17 @@ package com.dirtfy.visualtransformation.phonenumber
 import androidx.compose.ui.text.input.OffsetMapping
 import com.dirtfy.visualtransformation.Formater
 import com.dirtfy.visualtransformation.VisualTransformer
+import com.dirtfy.visualtransformation.currency.CurrencyFormater
 
+/**
+ * It puts some dashes in string of number.
+ *
+ * For example: 01012341234 -> 010-1234-1234
+ *
+ * CAUTION: It assumes korean area codes and 010 only.
+ *
+ * @see PhoneNumberFormater
+ */
 class PhoneNumberVisualTransformation: VisualTransformer() {
 
     override val formater: Formater = PhoneNumberFormater
