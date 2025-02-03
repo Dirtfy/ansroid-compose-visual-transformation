@@ -7,7 +7,10 @@ import com.dirtfy.visualtransformation.VisualTransformer
 /**
  * It puts some dashes in string of number.
  *
- * For example: 01012341234 -> 010-1234-1234
+ * For example:
+ * ```
+ * 01012341234 -> 010-1234-1234
+ * ```
  *
  * CAUTION: It assumes korean area codes and 010 only.
  *

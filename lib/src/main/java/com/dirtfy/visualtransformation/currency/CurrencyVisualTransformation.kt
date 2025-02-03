@@ -9,7 +9,10 @@ import kotlin.math.max
 /**
  * It puts some commas in string of number.
  *
- * For example: 1234567 -> 1,234,567
+ * For example:
+ * ```
+ * 1234567 -> 1,234,567
+ * ```
  *
  * @see CurrencyFormater
  */
