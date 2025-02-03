@@ -23,13 +23,11 @@ class PhoneNumberVisualTransformation: VisualTransformer() {
 
         override fun transformedToOriginal(offset: Int): Int {
             var originalOffset = 0
-            var transformedCount = 0
 
-            for (i in 0 until offset) {
+            for (i in (0 until offset)) {
                 if (i < transformed.length && transformed[i] != '-') {
                     originalOffset++
                 }
-                transformedCount++
             }
             return originalOffset
         }
