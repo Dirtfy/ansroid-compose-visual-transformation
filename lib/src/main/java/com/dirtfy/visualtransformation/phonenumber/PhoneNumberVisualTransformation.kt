@@ -3,7 +3,6 @@ package com.dirtfy.visualtransformation.phonenumber
 import androidx.compose.ui.text.input.OffsetMapping
 import com.dirtfy.visualtransformation.Formater
 import com.dirtfy.visualtransformation.VisualTransformer
-import com.dirtfy.visualtransformation.currency.CurrencyFormater
 
 /**
  * It puts some dashes in string of number.
